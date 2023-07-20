@@ -33,7 +33,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginEnd="10dp"
-                        android:background="@color/white"
+                        android:background="@color/black"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
@@ -63,7 +63,7 @@
                                 android:id="@+id/radioButton1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="@drawable/selector_radio_button"
+                                android:background="@drawable/q1_1"
                                 android:layout_weight="1"
                                 android:button="@null"
                                 android:tag="매우 행복"
@@ -72,7 +72,7 @@
                                 android:id="@+id/radioButton2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="@drawable/selector_radio_button"
+                                android:background="@drawable/q1_2"
                                 android:layout_weight="1"
                                 android:button="@null"
                                 android:tag="행복"
@@ -81,7 +81,7 @@
                                 android:id="@+id/radioButton3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="@drawable/selector_radio_button"
+                                android:background="@drawable/q1_3"
                                 android:layout_weight="1"
                                 android:button="@null"
                                 android:tag="평범함"
@@ -90,7 +90,7 @@
                                 android:id="@+id/radioButton4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="@drawable/selector_radio_button"
+                                android:background="@drawable/q1_4"
                                 android:layout_weight="1"
                                 android:button="@null"
                                 android:tag="슬픔"
@@ -99,7 +99,7 @@
                                 android:id="@+id/radioButton5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="@drawable/selector_radio_button"
+                                android:background="@drawable/q1_5"
                                 android:layout_weight="1"
                                 android:button="@null"
                                 android:tag="매우 슬픔"
@@ -154,7 +154,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q2_1"
                                 android:button="@null"
                                 android:tag="신나는"
 
@@ -169,7 +169,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q2_2"
                                 android:button="@null"
                                 android:tag="편안한"/>
 
@@ -182,7 +182,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q2_3"
                                 android:button="@null"
                                 android:tag="뿌듯한"/>
 
@@ -195,7 +195,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q2_4"
                                 android:button="@null"
                                 android:tag="기대되는"
                                 />
@@ -209,7 +209,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q2_5"
                                 android:button="@null"
                                 android:tag="행복한"/>
 
@@ -260,7 +260,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q3_1"
                                 android:button="@null"
                                 android:tag="친구"/>
 
@@ -273,7 +273,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q3_2"
                                 android:button="@null"
                                 android:tag="가족"/>
 
@@ -286,7 +286,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q3_3"
                                 android:button="@null"
                                 android:tag="애인"/>
 
@@ -299,7 +299,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q3_4"
                                 android:button="@null"
                                 android:tag="지인"/>
 
@@ -314,7 +314,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
+                                android:background="@drawable/q3_5"
                                 android:button="@null"
                                 android:tag="안만남"/>
 
@@ -337,8 +337,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
-                                android:button="@null" />
+                                android:background="@drawable/q3_6"
+                                android:button="@null"
+                                android:tag="의욕적인"/>
                             <Space
                                 android:layout_width="8dp"
                                 android:layout_height="wrap_content" />
@@ -349,8 +350,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
-                                android:button="@null" />
+                                android:background="@drawable/q3_7"
+                                android:button="@null"
+                                android:tag="상쾌한"/>
 
                             <Space
                                 android:layout_width="8dp"
@@ -361,8 +363,9 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:background="@drawable/custom_checkbox"
-                                android:button="@null" />
+                                android:background="@drawable/q3_8"
+                                android:button="@null"
+                                android:tag="우울한"/>
 
                             <Space
                                 android:layout_width="8dp"
@@ -374,7 +377,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:background="@drawable/custom_checkbox"
-                                android:button="@null" />
+                                android:button="@null"
+                                android:tag="외로운"/>
 
                             <Space
                                 android:layout_width="8dp"
@@ -386,7 +390,8 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:background="@drawable/custom_checkbox"
-                                android:button="@null" />
+                                android:button="@null"
+                                android:tag="불안한"/>
 
                             <Space
                                 android:layout_width="8dp"
@@ -433,11 +438,17 @@
                                 android:layout_height="wrap_content"
                                 android:text="취침" />
 
-                            <TimePicker
-                                android:id="@+id/timePicker1"
+                            <TextView
+                                android:id="@+id/textView8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:timePickerMode="spinner" />
+                                android:text="입력해" />
+
+                            <Button
+                                android:id="@+id/button2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="취침 시간" />
 
                             <TextView
                                 android:id="@+id/textView7"
@@ -445,11 +456,17 @@
                                 android:layout_height="wrap_content"
                                 android:text="기상" />
 
-                            <TimePicker
-                                android:id="@+id/timePicker2"
+                            <TextView
+                                android:id="@+id/textView9"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:timePickerMode="spinner" />
+                                android:text="입력해" />
+
+                            <Button
+                                android:id="@+id/button3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="기상 시간" />
                         </LinearLayout>
 
 
@@ -487,7 +504,7 @@
                             android:ems="10"
                             android:inputType="text"
                             android:minHeight="48dp"
-                            android:text="내용을 입력해주세요"
+                            android:hint="내용을 입력해주세요"
                             android:textAlignment="center"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
